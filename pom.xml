@@ -9,9 +9,31 @@
 <url>http://maven.apache.org</url>
 <name>Archetype - A_T</name>
 <properties>
-  <maven.compiler.source>1.15</maven.compiler.source>
-  <maven.compiler.target>1.15</maven.compiler.target>
+  <maven.compiler.source>1.19</maven.compiler.source>
+  <maven.compiler.target>1.19</maven.compiler.target>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </properties>
+<dependencies>
+  <dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.11.4</version>
+  </dependency>
 
+  <dependency>
+    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-xml</artifactId>
+    <version>2.14.2</version>
+  </dependency>
+  <dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.14.2</version>
+  </dependency>
+  <dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.14.2</version>
+  </dependency>
+</dependencies>
 </project>
